@@ -1,1 +1,33 @@
 // Specific CSS for your home-page
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aquamarine;
+}
+
+#quiz {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: bisque;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba($color: #cf8080, $alpha: 1.0);
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+#question {
+  margin-bottom: 20px;
+}
+
+#options {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+button:hover {
+  background-color: #8f8d8d;
+}
